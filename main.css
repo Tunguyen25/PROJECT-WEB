@@ -1,0 +1,404 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+div.check{
+    text-align: right;
+    padding: 10px;
+
+}
+div.mainimg{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    background: url(/PictureWeb/header.webp);
+}
+
+.check > .bt:first-child{
+    background-color: rgb(169, 67, 67);
+}
+
+.check > .bt:last-child{
+    background-color: rgb(87, 204, 51);
+}
+
+div.check > a{
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+div.mainimg > img{
+    width: 80%;
+    height: 120px;
+}
+
+div.nav{
+   background-color: #3399CC;
+}
+ul.menu{
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 200px;
+    display: flex;
+    border-right: 1px solid rgb(125, 122, 122);
+   
+}
+ul.menu > li{
+    background-color: #3399CC;
+    border: 2px solid transparent;
+    border-radius: 20px 20px;
+    
+}
+ul.menu > li > a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+ul.menu > li > a:hover{
+    background-color: rgb(169, 67, 67);
+    color:  black;
+    text-decoration: solid;
+}
+
+input[type=text]{
+    margin: 15px;
+    padding: 5px;
+}
+
+.menu li{
+    position: relative;
+}
+
+ul.sub-menu{
+    position: absolute;
+    padding: 15px 0;
+    background: #3399CC;
+    list-style-type: none;
+    width: 200px;
+    display: none;
+}
+.menu li:hover ul.sub-menu{
+    display: block;
+}
+ul.sub-menu > li > a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+
+}
+ul.sub-menu a{
+    padding: 8px 15px;
+}
+ul.sub-menu li{
+    border-bottom: 1px solid rgb(196, 195, 195);
+    padding: 5px 0;
+}
+.menu > li > a::before{
+    content: " ";
+    height: 3px;
+    width: 0px;
+    background: rgb(215, 131, 101);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+.menu > li:hover > a::before{
+    width: 100%;
+}
+
+ul.sub-menu li:last-child{
+    border-bottom: none;
+}
+ul.sub-menu > li > a:hover{
+    background-color: rgb(169, 67, 67) ;
+    color: rgb(25, 25, 25);
+    text-decoration: solid;
+}
+
+ul.ads-menu{
+    list-style-type: none;
+}
+
+ul.ads-menu img{
+    width: 30px;
+}
+
+ul.ads-menu > li {
+    padding: 8px;
+}
+
+aside.ads{
+    justify-content: left;
+    position: fixed;
+}
+
+aside.ads img:hover{
+    transform: scale(1.2);
+}
+
+div img{
+    width: 100%;
+    height: 200px;
+}
+
+section.items{
+    width: 70%;
+    margin: 5px auto;
+    background-image: linear-gradient(to left, aliceblue, #3399CC);
+
+}
+.col16{
+    width: 16%;
+}
+
+div.item{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+div.sub-col16{
+    font-size: 20px;
+}
+
+div.notification h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(34, 106, 177);
+}
+
+section.product{    
+    margin: 10px;
+    border-radius: 25px;
+    width: 100%;
+    background-image: linear-gradient(to right, aliceblue, #3399CC);
+
+}
+
+div.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    width: 90%;
+}
+.col22{
+    margin: 0 auto;
+    width: 20%;
+    
+}
+
+
+div.col22 > div{
+    text-align: center;
+}
+div.content > div{
+    padding: 10px;
+}
+div.col22 img{
+    width: 100%;
+}
+div.col22 a{
+    color: rgb(25, 25, 25);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section.product1{
+    width: 100%;
+    margin: 0 auto;
+}
+div.img-ts{ 
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+}
+div.img-ts img{
+    padding: 10px;
+}
+
+section.menu{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+
+}
+div.courese{
+
+    display: flex;
+}
+.col60{
+    width: 50%;
+
+}
+.col25{
+    padding-left: 20px ;
+    width: 25%;
+}
+.col50{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    margin: auto 0;
+}
+div.courese img{
+    width: 400px;
+}
+div.courese p{
+    padding: 10px;
+    font-size: 18x;
+}
+div.col60 h2{
+    color: #3399CC;
+}
+input[type=button]{
+    background-color: #3399CC;
+    border-color: #3399CC;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: auto;
+}
+div.sub-courese{
+    display: flex;
+    font-size: 20px;
+}
+ul.menuf{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-right: none;
+}
+ul.menuf > li{
+    background-color: transparent;
+    font-size: 20px;
+}
+ul.menuf > li > a{
+    padding: 0;
+    color: #3399CC;
+    margin: 5px;
+}
+ul.subf li{
+    border-bottom: 2px solid rgb(196, 195, 195);
+    padding: 5px 0;
+}
+.menuf > li > a::before{
+    content: " ";
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+.menuf > li:hover > a::before{
+    width: 100%;
+}
+
+ul.subf li:last-child{
+    border-bottom: 2px solid  rgb(236, 231, 231);
+}
+ul.subf > li > a:hover{
+    background-color: transparent;
+    color: #3399CC;;
+    text-decoration: solid;
+}
+ul.subf{
+    position: relative;
+    padding: 0;
+    background: none;
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    
+}
+.menu li:hover ul.sub-menu{
+    display: block;
+}
+ul.subf > li > a{
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+    padding: 0;
+    display: block;
+
+}
+ul.sub-menu a{
+    padding: 8px 15px;
+}
+ul.sub-menu li{
+    border-bottom: 1px solid rgb(236, 231, 231);
+    padding: 5px 0;
+}
+.menuf > li > h2{
+    font-size: 25px;
+    color: #3399CC;
+}
+footer{
+    background-color: aliceblue;
+}
+.col70{
+    width: 70%;
+    
+
+}
+div.courese > div{
+    margin: 0 auto;
+}
+
+ul.subf > li{
+    color: rgb(25, 25, 25) !important;
+}
+iframe{
+    width: 500px;
+    height: 250px;
+    border-radius: 30px 30px;
+    border: 2px solid transparent;
+}
+div.footer-last{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    position: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+div.footer-last > span{
+    position: relative;
+    animation: move 10s infinite;
+}
+@keyframes move{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+#backtop{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, aliceblue, #3399CC);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}

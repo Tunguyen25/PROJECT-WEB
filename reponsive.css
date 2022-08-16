@@ -1,0 +1,19 @@
+@media screen and (max-width: 1500px){}
+
+@media screen and (max-width: 900px){}
+
+@media screen and (max-width: 600px){
+    :root{
+        --left-width: 100%;
+    }
+
+    header{
+        height: 15%;
+    }
+
+    .title{
+        display: none;
+    }
+
+    
+}
