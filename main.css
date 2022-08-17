@@ -16,7 +16,7 @@ div.mainimg{
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    background: url(/PictureWeb/header.webp);
+    background: url(image/header.webp);
 }
 
 .check > .bt:first-child{
