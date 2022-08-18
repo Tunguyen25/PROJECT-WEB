@@ -375,3 +375,11 @@ div.footer-last > span{
     bottom: 40px;
     right: 20px;
 }
+.fa-phone:before {
+    content: "\f095";
+    color: rgb(25, 25, 25);
+}
+.fa-bar-chart:before, .fa-chart-bar:before {
+    content: "\f080";
+    color: rgb(25, 25, 25);
+}
