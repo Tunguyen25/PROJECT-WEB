@@ -199,7 +199,7 @@ div.item img{
     width: 100%;
 }
 div.item img:hover{
-    width: 120%;
+    transform: scale(1.2);
 }
 ul.sub-right li{
     color: rgb(25, 25, 25); 
