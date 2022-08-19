@@ -158,12 +158,34 @@ aside.ads img:hover{
  .left{
     width: 70% !important;
     background-color: aliceblue;
+    border-right: none !important;
  }
  .right{
     margin: 0;
     padding: 0;
     width: 30% !important;
     background-color: #E8EBF4;
+    display: block;
+    text-align: center;
+ }
+ div.right img{
+    text-align: center;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+    transition: width 1s;
+    opacity: 80%;
+ }
+ div.right img:hover{
+    opacity: 100%;
+    width: 100%;
+    
+ }
+ h4{
+    border-bottom: 3px solid rgb(206, 202, 202);
+    padding: 15px;
+    color: #2b8cbc;
+    font-size: 20px;
  }
  h1{
     padding: 20px;
@@ -454,6 +476,7 @@ div.footer-last > span{
     content: "\f080";
     color: rgb(25, 25, 25);
 }
+
 
  
 
