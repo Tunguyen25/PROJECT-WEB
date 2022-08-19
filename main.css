@@ -170,8 +170,8 @@ div.item{
     list-style-type: none;
 }
 div.item img{
-    width: 100%;
-    transition: ease-in 1s;
+    width: 80%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 div.item img:hover{
     width: 300px;
