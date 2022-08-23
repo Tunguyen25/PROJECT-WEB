@@ -3,17 +3,129 @@
 @media screen and (max-width: 900px){}
 
 @media screen and (max-width: 600px){
+    *{
+        font-size: 14px;
+    }
     :root{
         --left-width: 100%;
     }
 
-    header{
-        height: 15%;
+    ul.menu{
+        margin: 0 5px;
+        flex-wrap: wrap;
     }
-
-    .title{
+    ul.menu > li{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    ul.menu > li > a{
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    ul.sub-menu{
+        position: relative;
+        padding: 15px 0;
+        background: black;
+        list-style-type: none;
+        width: 200px;
         display: none;
     }
-
+    div.nav{
+        margin-bottom: 30px;
+    }
+    section.items{
+        border-radius: 25px 25px 0 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-image: linear-gradient(to bottom, aliceblue, #3399CC);
+    }
+    div.item{
+        flex-wrap: wrap;
+    }
+    div.item img:hover{
+        width: 80%;
+    }
+    div.item img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div.notification{
+        text-align: center;
+        padding-left: 50px;
+    }
+    section.product{
+        margin-top: 30px;
+        margin: 0 auto;
+        background-image: linear-gradient(to top, aliceblue, #3399CC);
     
+    }
+    div.contents{
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+    }
+    section.product1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    div.col22{
+        width: 100%;
+    }
+    div.content{
+        display: block;
+    }
+    div.img-ts{ 
+        width: 100%;
+        margin-left: 40px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.img-ts img{
+        width: 500px;
+        padding: 0;
+    }
+
+    .col50{
+       flex-wrap: wrap;
+    }
+    div.courese img{
+        width: 232px;
+    }
+
+    ul.menuf > li{
+        font-size: 14px;
+        padding-bottom: 20px;
+        color: azure;
+    }
+    ul.menuf > li > a{
+        color: #3399CC;
+    }
+    ul.subf{
+        background-color: rgb(156, 132, 89);
+      
+    }
+    ul.subf > li > a{
+        color: azure;
+    }
+    div.sub-courese > h2{
+        font-size: 18px;
+    }
+   .col70{
+    padding-bottom: 300px;
+   }
+   iframe{
+    width: 200px;
+    border-radius: 0 0 0 0;
+   }
+   .footer-last{
+    text-align: center;
+   }
+
 }

@@ -3,6 +3,7 @@
     color: white;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     width: 100%;
@@ -153,13 +154,14 @@ div img{
 
 section.items{
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 70%;
-    margin: 5px auto;
+    margin: 0 auto;
     background-image: linear-gradient(to left, aliceblue, #3399CC);
 
 }
 .col16{
-    width: 16%;
+    width: 15%;
 }
 
 div.item{
@@ -204,6 +206,7 @@ div.content{
 .col22{
     margin: 0 auto;
     width: 20%;
+    flex-wrap: wrap;
     
 }
 
@@ -229,12 +232,14 @@ section.product1{
 }
 div.img-ts{ 
     margin: 50px;
+    margin-left: 100px;
     padding: 10px;
     display: flex;
 }
 div.img-ts img{
-    padding: 10px;
+    width: 100% ;
 }
+
 
 section.menu{
     width: 80%;
@@ -244,11 +249,11 @@ section.menu{
 
 }
 div.courese{
-
     display: flex;
 }
 .col60{
     width: 50%;
+    
 
 }
 .col25{
@@ -282,6 +287,7 @@ input[type=button]{
 }
 div.sub-courese{
     display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
 }
 ul.menuf{
@@ -361,8 +367,6 @@ footer{
 }
 .col70{
     width: 70%;
-    
-
 }
 div.courese > div{
     margin: 0 auto;
