@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px){
+    ul.menu{
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    div.tab table{
+        width: 330px;
+        margin: 0;
+
+    }
+}
