@@ -13,4 +13,8 @@
         padding: 0;
         margin: 0;
     }
+    div.courese{
+        flex-wrap: wrap;
+    }
+    
 }
